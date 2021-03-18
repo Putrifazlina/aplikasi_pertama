@@ -52,7 +52,7 @@ class _RandomWordsState extends State<RandomWords> {
         style: _biggerFont,
       ),
       trailing: Icon(
-        alreadySaved ? Icons.favorite : Icons.favorite_border,
+        alreadySaved ? Icons.add_to_home_screen : Icons.add,
         color: alreadySaved ? Colors.blue : null,
       ),
       onTap: () {
